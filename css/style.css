@@ -1,0 +1,38 @@
+/* ESTILOS GENERALES */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    color: #263c59;
+    margin: 0;
+}
+
+main {
+    padding: 25px;
+}
+
+h2 {
+    color: #263c59;
+    font-size: 26px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* CABECERA */
+#cabecera {
+    background-color: #263c59;
+    color: white;
+    text-align: center;
+padding: 25px;
+}
+
+#cabecera h1 {
+    font-size: 36px;
+    margin: 10px;
+}
+
+#cabecera p {
+    font-style: italic;
+}
