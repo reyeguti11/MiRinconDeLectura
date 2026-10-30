@@ -1,14 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis libros Recomendados</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis libros recomendados</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="cabecera">
+      <div class="identidad">
+        <span class="icono-libro">📖</span>
+        <div>
+          <h1>Mi Rincón de Lectura</h1>
+          <p>Un lugar para descubrir nuevas historias</p>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="libros.html" class="activo">Libros</a>
+        <a href="index.html#generos">Favoritos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <section id="catalogo">
+        <h2>Mis libros recomendados</h2>
 
-    <link rel="stylesheet" href="css/style.css">
+        <p>Aquí encontrarás algunos de los libros que más me han gustado.</p>
 
-</head>
-<body>
-    
-</body>
+        <p>
+          Cada uno tiene una pequeña descripción para que conozcas de qué trata.
+        </p>
+        <div class="tarjeta">
+          <img
+            src="src/img/ElPrincipito.jpg"
+            alt="Portada de El principito"
+            class="portada"
+          />
+
+          <h3>El principito</h3>
+          <p>Antoine de Saint-Exupéry</p>
+          <p>
+            Un clásico que nos recuerda la importancia de la amistad y de ver
+            más allá de las apariencias.
+          </p>
+
+          <a href="https://es.wikipedia.org/wiki/El_principito" class="boton">
+            Más información
+          </a>
+        </div>
+
+        <div class="tarjeta">
+          <img
+            src="src/img/HarryPotter.jpg"
+            alt="Portada de Harry Potter"
+            class="portada"
+          />
+
+          <h3>Harry Potter y la piedra filosofal</h3>
+          <p>J. K. Rowling</p>
+          <p>
+            El comienzo de una aventura llena de magia, amistad y grandes
+            sorpresas.
+          </p>
+
+          <a
+            href="https://es.wikipedia.org/wiki/Harry_Potter_y_la_piedra_filosofal"
+            class="boton"
+          >
+            Más información
+          </a>
+        </div>
+
+        <div class="tarjeta">
+          <img
+            src="src/img/HistoriaInterminable.jpg"
+            alt="Portada de La historia interminable"
+            class="portada"
+          />
+
+          <h3>La historia interminable</h3>
+          <p>Michael Ende</p>
+          <p>
+            Un viaje fascinante a un mundo de fantasía donde la imaginación no
+            tiene límites.
+          </p>
+
+          <a
+            href="https://es.wikipedia.org/wiki/La_historia_interminable"
+            class="boton"
+          >
+            Más información
+          </a>
+        </div>
+      </section>
+      <section id="otros-libros">
+        <h2>Otros libros que también te pueden gustar</h2>
+
+        <ul>
+          <li>Momo - Michael Ende</li>
+          <li>Las crónicas de Narnia - C. S. Lewis</li>
+          <li>Matilda - Roald Dahl</li>
+          <li>El Hobbit - J. R. R. Tolkien</li>
+          <li>El nombre del viento - Patrick Rothfuss</li>
+        </ul>
+      </section>
+    </main>
+    <footer id="contacto">
+      <p>Mi rincón de lectura · 2026</p>
+      <a href="mailto:lectura@ejemplo.com">Contacto</a>
+    </footer>
+  </body>
 </html>
